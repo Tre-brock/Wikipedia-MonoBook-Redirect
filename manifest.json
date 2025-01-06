@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Wikipedia MonoBook Skin Redirect",
+  "version": "1",
+  "description": "Redirects Wikipedia articles to the MonoBook theme version of the page. Forked from https://addons.mozilla.org/en-US/firefox/addon/wikipedia-vector-skin/",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.mediawiki.org/*",
+    "*://*.wikipedia.org/*",
+    "*://*.wiktionary.org/*",
+    "*://*.wikiquote.org/*",
+    "*://*.wikiversity.org/*",
+    "*://*.wikivoyage.org/*",
+    "*://*.wikimedia.org/*",
+    "*://*.wikidata.org/*",
+    "*://*.wikinews.org/*",
+    "*://*.wikisource.org/*",
+    "*://*.wikibooks.org/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{ebe73c0d-b0fd-4f1c-ac90-64ccc950bb0d}"
+    }
+  }
+}
