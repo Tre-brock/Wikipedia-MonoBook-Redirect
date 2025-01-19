@@ -51,7 +51,7 @@ browser.webRequest.onBeforeRequest.addListener(
 					if (!newUrl.search.includes("useskin=Vector"))
 					{
 						let params = new URLSearchParams(newUrl.search);
-						params.append('useskin', 'MonoBook');
+						params.append('useskin', 'monobook');
 						newUrl.search = params;
 						WVSLog('new URL:       '+ newUrl.href);
 						return { redirectUrl: newUrl.href };
