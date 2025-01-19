@@ -1,2 +1,2 @@
 # Wikipedia MonoBook Redirect
-Go to trebrock.net/monobook-redirect
+Go to https://trebrock.net/monobook-redirect
